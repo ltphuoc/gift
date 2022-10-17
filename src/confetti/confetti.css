@@ -1,0 +1,2034 @@
+.confetti {
+  width: 440px;
+  margin: 500px auto 0;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  position: absolute;
+  bottom: 4em;
+  left: 50%;
+  transform: translate(-50%);
+}
+.confetti p {
+  position: absolute;
+  display: block;
+  left: 50%;
+  bottom: 0;
+  width: 5px;
+  height: 8px;
+  opacity: 0.8;
+}
+.confetti.animated p:nth-of-type(1) {
+  transform: skewY(29deg) rotate(190deg) translate(85px, -490px) scale(0.4);
+  background: hsl(237deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(2) {
+  transform: skewY(20deg) rotate(55deg) translate(26px, -505px) scale(0.5);
+  background: hsl(316deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(3) {
+  transform: skewY(38deg) rotate(145deg) translate(14px, -1235px) scale(0.1);
+  background: hsl(328deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(4) {
+  transform: skewY(30deg) rotate(309deg) translate(83px, -180px) scale(0.3);
+  background: hsl(145deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(5) {
+  transform: skewY(49deg) rotate(336deg) translate(10px, -50px) scale(0.4);
+  background: hsl(290deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(6) {
+  transform: skewY(28deg) rotate(280deg) translate(16px, -480px) scale(0.2);
+  background: hsl(318deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(7) {
+  transform: skewY(13deg) rotate(50deg) translate(30px, -1920px) scale(0.2);
+  background: hsl(330deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(8) {
+  transform: skewY(27deg) rotate(331deg) translate(91px, -1010px) scale(0.5);
+  background: hsl(322deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(9) {
+  transform: skewY(26deg) rotate(155deg) translate(70px, -2165px) scale(0.3);
+  background: hsl(301deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(10) {
+  transform: skewY(25deg) rotate(13deg) translate(7px, -2435px) scale(0.4);
+  background: hsl(273deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(11) {
+  transform: skewY(16deg) rotate(83deg) translate(48px, -1575px) scale(0.3);
+  background: hsl(193deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(12) {
+  transform: skewY(38deg) rotate(43deg) translate(83px, -2460px) scale(0.5);
+  background: hsl(107deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(13) {
+  transform: skewY(5deg) rotate(276deg) translate(91px, -755px) scale(0.5);
+  background: hsl(206deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(14) {
+  transform: skewY(36deg) rotate(42deg) translate(100px, -630px) scale(0.5);
+  background: hsl(144deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(15) {
+  transform: skewY(47deg) rotate(39deg) translate(17px, -2380px) scale(0.5);
+  background: hsl(133deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(16) {
+  transform: skewY(32deg) rotate(28deg) translate(27px, -990px) scale(0.4);
+  background: hsl(5deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(17) {
+  transform: skewY(41deg) rotate(12deg) translate(62px, -1650px) scale(0.1);
+  background: hsl(177deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(18) {
+  transform: skewY(19deg) rotate(99deg) translate(81px, -2425px) scale(0.5);
+  background: hsl(238deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(19) {
+  transform: skewY(33deg) rotate(46deg) translate(3px, -930px) scale(0.4);
+  background: hsl(279deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(20) {
+  transform: skewY(10deg) rotate(141deg) translate(60px, -280px) scale(0.5);
+  background: hsl(69deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(21) {
+  transform: skewY(7deg) rotate(54deg) translate(92px, -305px) scale(0.1);
+  background: hsl(138deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(22) {
+  transform: skewY(34deg) rotate(99deg) translate(9px, -110px) scale(0.5);
+  background: hsl(318deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(23) {
+  transform: skewY(14deg) rotate(248deg) translate(61px, -1315px) scale(0.5);
+  background: hsl(337deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(24) {
+  transform: skewY(6deg) rotate(33deg) translate(82px, -1695px) scale(0.3);
+  background: hsl(295deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(25) {
+  transform: skewY(31deg) rotate(77deg) translate(87px, -15px) scale(0.3);
+  background: hsl(187deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(26) {
+  transform: skewY(11deg) rotate(195deg) translate(3px, -785px) scale(0.1);
+  background: hsl(166deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(27) {
+  transform: skewY(1deg) rotate(147deg) translate(38px, -865px) scale(0.5);
+  background: hsl(15deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(28) {
+  transform: skewY(12deg) rotate(279deg) translate(22px, -1890px) scale(0.2);
+  background: hsl(176deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(29) {
+  transform: skewY(39deg) rotate(294deg) translate(73px, -5px) scale(0.3);
+  background: hsl(162deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(30) {
+  transform: skewY(42deg) rotate(264deg) translate(39px, -1280px) scale(0.1);
+  background: hsl(300deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(31) {
+  transform: skewY(36deg) rotate(182deg) translate(98px, -620px) scale(0.3);
+  background: hsl(311deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(32) {
+  transform: skewY(46deg) rotate(132deg) translate(38px, -1605px) scale(0.4);
+  background: hsl(168deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(33) {
+  transform: skewY(22deg) rotate(264deg) translate(56px, -790px) scale(0.1);
+  background: hsl(110deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(34) {
+  transform: skewY(28deg) rotate(17deg) translate(14px, -80px) scale(0.3);
+  background: hsl(41deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(35) {
+  transform: skewY(42deg) rotate(73deg) translate(35px, -575px) scale(0.2);
+  background: hsl(348deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(36) {
+  transform: skewY(41deg) rotate(207deg) translate(27px, -1840px) scale(0.1);
+  background: hsl(5deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(37) {
+  transform: skewY(5deg) rotate(63deg) translate(38px, -1780px) scale(0.3);
+  background: hsl(83deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(38) {
+  transform: skewY(3deg) rotate(322deg) translate(25px, -1320px) scale(0.4);
+  background: hsl(143deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(39) {
+  transform: skewY(37deg) rotate(251deg) translate(4px, -985px) scale(0.4);
+  background: hsl(176deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(40) {
+  transform: skewY(3deg) rotate(72deg) translate(33px, -1905px) scale(0.2);
+  background: hsl(5deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(41) {
+  transform: skewY(6deg) rotate(316deg) translate(71px, -970px) scale(0.4);
+  background: hsl(141deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(42) {
+  transform: skewY(46deg) rotate(291deg) translate(88px, -2465px) scale(0.4);
+  background: hsl(252deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(43) {
+  transform: skewY(12deg) rotate(50deg) translate(33px, -2485px) scale(0.2);
+  background: hsl(204deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(44) {
+  transform: skewY(24deg) rotate(294deg) translate(95px, -255px) scale(0.3);
+  background: hsl(318deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(45) {
+  transform: skewY(42deg) rotate(85deg) translate(95px, -2295px) scale(0.5);
+  background: hsl(111deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(46) {
+  transform: skewY(30deg) rotate(301deg) translate(5px, -600px) scale(0.5);
+  background: hsl(28deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(47) {
+  transform: skewY(46deg) rotate(322deg) translate(66px, -1015px) scale(0.4);
+  background: hsl(5deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(48) {
+  transform: skewY(7deg) rotate(257deg) translate(3px, -2020px) scale(0.4);
+  background: hsl(28deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(49) {
+  transform: skewY(4deg) rotate(263deg) translate(63px, -1470px) scale(0.3);
+  background: hsl(305deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(50) {
+  transform: skewY(29deg) rotate(147deg) translate(10px, -2340px) scale(0.1);
+  background: hsl(248deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(51) {
+  transform: skewY(8deg) rotate(130deg) translate(98px, -430px) scale(0.1);
+  background: hsl(232deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(52) {
+  transform: skewY(37deg) rotate(82deg) translate(58px, -325px) scale(0.2);
+  background: hsl(266deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(53) {
+  transform: skewY(32deg) rotate(189deg) translate(38px, -2430px) scale(0.1);
+  background: hsl(306deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(54) {
+  transform: skewY(47deg) rotate(268deg) translate(10px, -2380px) scale(0.5);
+  background: hsl(321deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(55) {
+  transform: skewY(32deg) rotate(283deg) translate(6px, -55px) scale(0.3);
+  background: hsl(70deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(56) {
+  transform: skewY(47deg) rotate(301deg) translate(57px, -2160px) scale(0.4);
+  background: hsl(5deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(57) {
+  transform: skewY(24deg) rotate(53deg) translate(77px, -875px) scale(0.3);
+  background: hsl(353deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(58) {
+  transform: skewY(6deg) rotate(42deg) translate(92px, -1605px) scale(0.2);
+  background: hsl(32deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(59) {
+  transform: skewY(45deg) rotate(129deg) translate(19px, -120px) scale(0.5);
+  background: hsl(182deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(60) {
+  transform: skewY(30deg) rotate(324deg) translate(100px, -1665px) scale(0.1);
+  background: hsl(197deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(61) {
+  transform: skewY(34deg) rotate(330deg) translate(4px, -890px) scale(0.5);
+  background: hsl(259deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(62) {
+  transform: skewY(39deg) rotate(355deg) translate(71px, -1285px) scale(0.2);
+  background: hsl(200deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(63) {
+  transform: skewY(33deg) rotate(216deg) translate(49px, -1240px) scale(0.5);
+  background: hsl(67deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(64) {
+  transform: skewY(44deg) rotate(280deg) translate(48px, -985px) scale(0.1);
+  background: hsl(296deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(65) {
+  transform: skewY(44deg) rotate(292deg) translate(56px, -580px) scale(0.4);
+  background: hsl(225deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(66) {
+  transform: skewY(42deg) rotate(306deg) translate(93px, -1455px) scale(0.3);
+  background: hsl(192deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(67) {
+  transform: skewY(49deg) rotate(220deg) translate(67px, -320px) scale(0.1);
+  background: hsl(337deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(68) {
+  transform: skewY(14deg) rotate(257deg) translate(74px, -735px) scale(0.5);
+  background: hsl(223deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(69) {
+  transform: skewY(23deg) rotate(189deg) translate(19px, -1395px) scale(0.1);
+  background: hsl(14deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(70) {
+  transform: skewY(8deg) rotate(26deg) translate(67px, -1955px) scale(0.2);
+  background: hsl(86deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(71) {
+  transform: skewY(11deg) rotate(232deg) translate(80px, -1780px) scale(0.4);
+  background: hsl(22deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(72) {
+  transform: skewY(19deg) rotate(223deg) translate(89px, -2325px) scale(0.2);
+  background: hsl(141deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(73) {
+  transform: skewY(17deg) rotate(12deg) translate(56px, -1420px) scale(0.2);
+  background: hsl(15deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(74) {
+  transform: skewY(25deg) rotate(14deg) translate(73px, -2465px) scale(0.2);
+  background: hsl(104deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(75) {
+  transform: skewY(40deg) rotate(115deg) translate(16px, -2445px) scale(0.5);
+  background: hsl(135deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(76) {
+  transform: skewY(10deg) rotate(206deg) translate(67px, -1430px) scale(0.5);
+  background: hsl(121deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(77) {
+  transform: skewY(50deg) rotate(121deg) translate(64px, -1325px) scale(0.2);
+  background: hsl(269deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(78) {
+  transform: skewY(48deg) rotate(215deg) translate(35px, -1905px) scale(0.1);
+  background: hsl(45deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(79) {
+  transform: skewY(37deg) rotate(23deg) translate(81px, -1390px) scale(0.5);
+  background: hsl(102deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(80) {
+  transform: skewY(4deg) rotate(38deg) translate(53px, -1840px) scale(0.3);
+  background: hsl(318deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(81) {
+  transform: skewY(38deg) rotate(241deg) translate(99px, -2270px) scale(0.4);
+  background: hsl(349deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(82) {
+  transform: skewY(42deg) rotate(332deg) translate(50px, -1670px) scale(0.4);
+  background: hsl(208deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(83) {
+  transform: skewY(21deg) rotate(24deg) translate(42px, -2060px) scale(0.4);
+  background: hsl(32deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(84) {
+  transform: skewY(50deg) rotate(238deg) translate(10px, -340px) scale(0.2);
+  background: hsl(148deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(85) {
+  transform: skewY(30deg) rotate(127deg) translate(12px, -255px) scale(0.3);
+  background: hsl(47deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(86) {
+  transform: skewY(33deg) rotate(70deg) translate(4px, -240px) scale(0.4);
+  background: hsl(261deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(87) {
+  transform: skewY(48deg) rotate(56deg) translate(86px, -755px) scale(0.1);
+  background: hsl(124deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(88) {
+  transform: skewY(38deg) rotate(244deg) translate(71px, -1830px) scale(0.5);
+  background: hsl(61deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(89) {
+  transform: skewY(50deg) rotate(89deg) translate(41px, -1240px) scale(0.3);
+  background: hsl(344deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(90) {
+  transform: skewY(11deg) rotate(182deg) translate(83px, -480px) scale(0.2);
+  background: hsl(181deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(91) {
+  transform: skewY(3deg) rotate(281deg) translate(35px, -1570px) scale(0.5);
+  background: hsl(117deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(92) {
+  transform: skewY(3deg) rotate(192deg) translate(61px, -1750px) scale(0.5);
+  background: hsl(99deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(93) {
+  transform: skewY(9deg) rotate(221deg) translate(53px, -1380px) scale(0.4);
+  background: hsl(133deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(94) {
+  transform: skewY(36deg) rotate(98deg) translate(71px, -905px) scale(0.5);
+  background: hsl(201deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(95) {
+  transform: skewY(3deg) rotate(145deg) translate(49px, -2150px) scale(0.5);
+  background: hsl(119deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(96) {
+  transform: skewY(20deg) rotate(38deg) translate(44px, -2275px) scale(0.2);
+  background: hsl(109deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(97) {
+  transform: skewY(38deg) rotate(133deg) translate(45px, -1230px) scale(0.2);
+  background: hsl(238deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(98) {
+  transform: skewY(47deg) rotate(132deg) translate(5px, -1765px) scale(0.5);
+  background: hsl(156deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(99) {
+  transform: skewY(31deg) rotate(107deg) translate(43px, -2160px) scale(0.2);
+  background: hsl(309deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(100) {
+  transform: skewY(14deg) rotate(100deg) translate(77px, -420px) scale(0.4);
+  background: hsl(288deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(101) {
+  transform: skewY(43deg) rotate(191deg) translate(44px, -680px) scale(0.4);
+  background: hsl(355deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(102) {
+  transform: skewY(43deg) rotate(14deg) translate(66px, -370px) scale(0.1);
+  background: hsl(165deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(103) {
+  transform: skewY(3deg) rotate(17deg) translate(70px, -185px) scale(0.2);
+  background: hsl(65deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(104) {
+  transform: skewY(38deg) rotate(324deg) translate(49px, -2480px) scale(0.1);
+  background: hsl(17deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(105) {
+  transform: skewY(16deg) rotate(4deg) translate(2px, -595px) scale(0.4);
+  background: hsl(129deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(106) {
+  transform: skewY(40deg) rotate(332deg) translate(23px, -2350px) scale(0.4);
+  background: hsl(276deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(107) {
+  transform: skewY(2deg) rotate(298deg) translate(69px, -535px) scale(0.5);
+  background: hsl(110deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(108) {
+  transform: skewY(25deg) rotate(219deg) translate(45px, -1680px) scale(0.3);
+  background: hsl(236deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(109) {
+  transform: skewY(37deg) rotate(303deg) translate(98px, -1835px) scale(0.5);
+  background: hsl(356deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(110) {
+  transform: skewY(37deg) rotate(4deg) translate(23px, -1935px) scale(0.2);
+  background: hsl(71deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(111) {
+  transform: skewY(36deg) rotate(239deg) translate(58px, -30px) scale(0.1);
+  background: hsl(296deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(112) {
+  transform: skewY(47deg) rotate(76deg) translate(29px, -2020px) scale(0.1);
+  background: hsl(203deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(113) {
+  transform: skewY(9deg) rotate(16deg) translate(86px, -425px) scale(0.5);
+  background: hsl(335deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(114) {
+  transform: skewY(23deg) rotate(137deg) translate(11px, -450px) scale(0.5);
+  background: hsl(19deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(115) {
+  transform: skewY(39deg) rotate(175deg) translate(27px, -2210px) scale(0.4);
+  background: hsl(111deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(116) {
+  transform: skewY(43deg) rotate(112deg) translate(38px, -2060px) scale(0.4);
+  background: hsl(104deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(117) {
+  transform: skewY(1deg) rotate(143deg) translate(77px, -205px) scale(0.1);
+  background: hsl(137deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(118) {
+  transform: skewY(24deg) rotate(358deg) translate(76px, -55px) scale(0.5);
+  background: hsl(140deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(119) {
+  transform: skewY(41deg) rotate(84deg) translate(23px, -240px) scale(0.4);
+  background: hsl(93deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(120) {
+  transform: skewY(11deg) rotate(320deg) translate(6px, -1720px) scale(0.4);
+  background: hsl(318deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(121) {
+  transform: skewY(19deg) rotate(178deg) translate(47px, -2180px) scale(0.2);
+  background: hsl(93deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(122) {
+  transform: skewY(50deg) rotate(333deg) translate(11px, -2055px) scale(0.5);
+  background: hsl(255deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(123) {
+  transform: skewY(39deg) rotate(312deg) translate(15px, -1860px) scale(0.2);
+  background: hsl(6deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(124) {
+  transform: skewY(49deg) rotate(137deg) translate(72px, -1550px) scale(0.1);
+  background: hsl(186deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(125) {
+  transform: skewY(45deg) rotate(153deg) translate(31px, -2200px) scale(0.3);
+  background: hsl(55deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(126) {
+  transform: skewY(49deg) rotate(104deg) translate(84px, -2270px) scale(0.1);
+  background: hsl(93deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(127) {
+  transform: skewY(22deg) rotate(25deg) translate(5px, -730px) scale(0.2);
+  background: hsl(233deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(128) {
+  transform: skewY(32deg) rotate(113deg) translate(74px, -1205px) scale(0.3);
+  background: hsl(182deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(129) {
+  transform: skewY(46deg) rotate(104deg) translate(49px, -2125px) scale(0.3);
+  background: hsl(69deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(130) {
+  transform: skewY(29deg) rotate(53deg) translate(30px, -1380px) scale(0.4);
+  background: hsl(341deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(131) {
+  transform: skewY(19deg) rotate(207deg) translate(77px, -2110px) scale(0.3);
+  background: hsl(244deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(132) {
+  transform: skewY(45deg) rotate(304deg) translate(54px, -1555px) scale(0.3);
+  background: hsl(159deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(133) {
+  transform: skewY(14deg) rotate(354deg) translate(16px, -1345px) scale(0.5);
+  background: hsl(119deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(134) {
+  transform: skewY(10deg) rotate(20deg) translate(21px, -240px) scale(0.3);
+  background: hsl(312deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(135) {
+  transform: skewY(45deg) rotate(33deg) translate(67px, -2140px) scale(0.5);
+  background: hsl(94deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(136) {
+  transform: skewY(45deg) rotate(155deg) translate(1px, -2200px) scale(0.2);
+  background: hsl(48deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(137) {
+  transform: skewY(19deg) rotate(336deg) translate(42px, -1060px) scale(0.3);
+  background: hsl(267deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(138) {
+  transform: skewY(14deg) rotate(234deg) translate(28px, -1960px) scale(0.3);
+  background: hsl(258deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(139) {
+  transform: skewY(43deg) rotate(123deg) translate(8px, -155px) scale(0.2);
+  background: hsl(335deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(140) {
+  transform: skewY(42deg) rotate(358deg) translate(63px, -2305px) scale(0.2);
+  background: hsl(253deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(141) {
+  transform: skewY(12deg) rotate(120deg) translate(38px, -940px) scale(0.2);
+  background: hsl(47deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(142) {
+  transform: skewY(1deg) rotate(116deg) translate(57px, -210px) scale(0.4);
+  background: hsl(146deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(143) {
+  transform: skewY(21deg) rotate(183deg) translate(55px, -45px) scale(0.5);
+  background: hsl(266deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(144) {
+  transform: skewY(37deg) rotate(54deg) translate(14px, -1645px) scale(0.5);
+  background: hsl(215deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(145) {
+  transform: skewY(44deg) rotate(51deg) translate(31px, -1715px) scale(0.1);
+  background: hsl(218deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(146) {
+  transform: skewY(27deg) rotate(115deg) translate(18px, -1720px) scale(0.4);
+  background: hsl(203deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(147) {
+  transform: skewY(46deg) rotate(58deg) translate(41px, -615px) scale(0.5);
+  background: hsl(100deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(148) {
+  transform: skewY(34deg) rotate(150deg) translate(57px, -920px) scale(0.5);
+  background: hsl(340deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(149) {
+  transform: skewY(7deg) rotate(238deg) translate(39px, -420px) scale(0.4);
+  background: hsl(41deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(150) {
+  transform: skewY(22deg) rotate(359deg) translate(34px, -2300px) scale(0.5);
+  background: hsl(192deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(151) {
+  transform: skewY(34deg) rotate(29deg) translate(80px, -2375px) scale(0.4);
+  background: hsl(168deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(152) {
+  transform: skewY(42deg) rotate(233deg) translate(96px, -1190px) scale(0.4);
+  background: hsl(286deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(153) {
+  transform: skewY(18deg) rotate(22deg) translate(31px, -1380px) scale(0.3);
+  background: hsl(201deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(154) {
+  transform: skewY(34deg) rotate(145deg) translate(78px, -1780px) scale(0.2);
+  background: hsl(144deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(155) {
+  transform: skewY(28deg) rotate(206deg) translate(83px, -355px) scale(0.1);
+  background: hsl(113deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(156) {
+  transform: skewY(6deg) rotate(351deg) translate(11px, -2395px) scale(0.4);
+  background: hsl(310deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(157) {
+  transform: skewY(9deg) rotate(43deg) translate(40px, -40px) scale(0.4);
+  background: hsl(210deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(158) {
+  transform: skewY(14deg) rotate(71deg) translate(37px, -2165px) scale(0.3);
+  background: hsl(328deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(159) {
+  transform: skewY(48deg) rotate(168deg) translate(46px, -1695px) scale(0.1);
+  background: hsl(78deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(160) {
+  transform: skewY(35deg) rotate(352deg) translate(58px, -875px) scale(0.1);
+  background: hsl(239deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(161) {
+  transform: skewY(26deg) rotate(168deg) translate(28px, -565px) scale(0.3);
+  background: hsl(237deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(162) {
+  transform: skewY(22deg) rotate(65deg) translate(67px, -995px) scale(0.1);
+  background: hsl(221deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(163) {
+  transform: skewY(41deg) rotate(34deg) translate(84px, -1250px) scale(0.4);
+  background: hsl(191deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(164) {
+  transform: skewY(11deg) rotate(86deg) translate(12px, -1620px) scale(0.2);
+  background: hsl(3deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(165) {
+  transform: skewY(17deg) rotate(329deg) translate(78px, -1670px) scale(0.1);
+  background: hsl(329deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(166) {
+  transform: skewY(50deg) rotate(173deg) translate(10px, -1950px) scale(0.1);
+  background: hsl(185deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(167) {
+  transform: skewY(1deg) rotate(316deg) translate(47px, -180px) scale(0.1);
+  background: hsl(138deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(168) {
+  transform: skewY(21deg) rotate(189deg) translate(53px, -1570px) scale(0.2);
+  background: hsl(212deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(169) {
+  transform: skewY(37deg) rotate(64deg) translate(11px, -335px) scale(0.1);
+  background: hsl(256deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(170) {
+  transform: skewY(30deg) rotate(148deg) translate(39px, -515px) scale(0.4);
+  background: hsl(186deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(171) {
+  transform: skewY(40deg) rotate(142deg) translate(59px, -285px) scale(0.1);
+  background: hsl(201deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(172) {
+  transform: skewY(39deg) rotate(272deg) translate(5px, -2270px) scale(0.3);
+  background: hsl(305deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(173) {
+  transform: skewY(36deg) rotate(10deg) translate(85px, -510px) scale(0.5);
+  background: hsl(37deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(174) {
+  transform: skewY(47deg) rotate(74deg) translate(52px, -1130px) scale(0.5);
+  background: hsl(137deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(175) {
+  transform: skewY(33deg) rotate(184deg) translate(67px, -1615px) scale(0.4);
+  background: hsl(202deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(176) {
+  transform: skewY(13deg) rotate(357deg) translate(6px, -745px) scale(0.5);
+  background: hsl(161deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(177) {
+  transform: skewY(39deg) rotate(193deg) translate(14px, -1235px) scale(0.4);
+  background: hsl(183deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(178) {
+  transform: skewY(12deg) rotate(241deg) translate(74px, -1565px) scale(0.5);
+  background: hsl(353deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(179) {
+  transform: skewY(32deg) rotate(293deg) translate(64px, -2390px) scale(0.2);
+  background: hsl(9deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(180) {
+  transform: skewY(43deg) rotate(189deg) translate(4px, -15px) scale(0.5);
+  background: hsl(244deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(181) {
+  transform: skewY(31deg) rotate(159deg) translate(71px, -765px) scale(0.2);
+  background: hsl(198deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(182) {
+  transform: skewY(7deg) rotate(257deg) translate(21px, -30px) scale(0.3);
+  background: hsl(145deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(183) {
+  transform: skewY(24deg) rotate(60deg) translate(9px, -465px) scale(0.3);
+  background: hsl(276deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(184) {
+  transform: skewY(9deg) rotate(236deg) translate(85px, -2230px) scale(0.2);
+  background: hsl(76deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(185) {
+  transform: skewY(49deg) rotate(203deg) translate(97px, -700px) scale(0.3);
+  background: hsl(62deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(186) {
+  transform: skewY(12deg) rotate(117deg) translate(68px, -1035px) scale(0.2);
+  background: hsl(155deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(187) {
+  transform: skewY(39deg) rotate(110deg) translate(47px, -1890px) scale(0.5);
+  background: hsl(20deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(188) {
+  transform: skewY(47deg) rotate(147deg) translate(65px, -920px) scale(0.1);
+  background: hsl(27deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 9px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(189) {
+  transform: skewY(45deg) rotate(336deg) translate(68px, -2280px) scale(0.4);
+  background: hsl(72deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(190) {
+  transform: skewY(8deg) rotate(111deg) translate(56px, -2075px) scale(0.2);
+  background: hsl(113deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  bottom: 10px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(191) {
+  transform: skewY(34deg) rotate(149deg) translate(99px, -360px) scale(0.3);
+  background: hsl(319deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 1px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(192) {
+  transform: skewY(26deg) rotate(258deg) translate(71px, -610px) scale(0.1);
+  background: hsl(131deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 8px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(193) {
+  transform: skewY(31deg) rotate(106deg) translate(2px, -1890px) scale(0.2);
+  background: hsl(227deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(194) {
+  transform: skewY(42deg) rotate(207deg) translate(18px, -1075px) scale(0.5);
+  background: hsl(284deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 2px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(195) {
+  transform: skewY(12deg) rotate(281deg) translate(62px, -1150px) scale(0.5);
+  background: hsl(287deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 7px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(196) {
+  transform: skewY(39deg) rotate(357deg) translate(55px, -200px) scale(0.1);
+  background: hsl(176deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(197) {
+  transform: skewY(33deg) rotate(263deg) translate(15px, -2245px) scale(0.1);
+  background: hsl(292deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  bottom: 3px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(198) {
+  transform: skewY(28deg) rotate(120deg) translate(38px, -1200px) scale(0.5);
+  background: hsl(263deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  bottom: 5px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(199) {
+  transform: skewY(2deg) rotate(358deg) translate(2px, -805px) scale(0.2);
+  background: hsl(320deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  bottom: 4px;
+  opacity: 0.3;
+}
+.confetti.animated p:nth-of-type(200) {
+  transform: skewY(37deg) rotate(214deg) translate(49px, -1365px) scale(0.3);
+  background: hsl(145deg, 100%, 50%);
+  -webkit-animation: 2s bang infinite;
+          animation: 2s bang infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  bottom: 6px;
+  opacity: 0.3;
+}
+
+@-webkit-keyframes bang {
+  from {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes bang {
+  from {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=confetti.css.map */
